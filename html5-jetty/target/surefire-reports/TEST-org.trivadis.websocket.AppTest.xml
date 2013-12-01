@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.021" errors="0" skipped="0" tests="1" name="org.trivadis.websocket.AppTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="23.7-b01"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/tphadke/project/entre/html5-webapp-jetty"/>
+    <property name="java.runtime.version" value="1.7.0_17-b02"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="basedir" value="/Users/tphadke/project/entre/html5-webapp-jetty"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="surefire.real.class.path" value="/Users/tphadke/project/entre/html5-webapp-jetty/target/surefire/surefirebooter7114462565084214627.jar"/>
+    <property name="java.io.tmpdir" value="/var/folders/l9/83k72hg568ddgpp126yfpmn8d50f8w/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/tphadke/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="surefire.test.class.path" value="/Users/tphadke/project/entre/html5-webapp-jetty/target/test-classes:/Users/tphadke/project/entre/html5-webapp-jetty/target/classes:/Users/tphadke/.m2/repository/junit/junit/4.4/junit-4.4.jar:/Users/tphadke/.m2/repository/org/eclipse/jetty/jetty-server/8.0.0.M3/jetty-server-8.0.0.M3.jar:/Users/tphadke/.m2/repository/org/mortbay/jetty/servlet-api/3.0.20100224/servlet-api-3.0.20100224.jar:/Users/tphadke/.m2/repository/org/eclipse/jetty/jetty-continuation/8.0.0.M3/jetty-continuation-8.0.0.M3.jar:/Users/tphadke/.m2/repository/org/eclipse/jetty/jetty-http/8.0.0.M3/jetty-http-8.0.0.M3.jar:/Users/tphadke/.m2/repository/org/eclipse/jetty/jetty-io/8.0.0.M3/jetty-io-8.0.0.M3.jar:/Users/tphadke/.m2/repository/org/eclipse/jetty/jetty-util/8.0.0.M3/jetty-util-8.0.0.M3.jar:/Users/tphadke/.m2/repository/org/eclipse/jetty/jetty-websocket/8.0.0.M3/jetty-websocket-8.0.0.M3.jar:/Users/tphadke/.m2/repository/javax/faces/jsf-api/1.2/jsf-api-1.2.jar:/Users/tphadke/.m2/repository/javax/faces/jsf-impl/1.2/jsf-impl-1.2-NIGHTLY_20060227.jar:/Users/tphadke/.m2/repository/javax/javaee-web-api/6.0/javaee-web-api-6.0.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.8.5"/>
+    <property name="user.home" value="/Users/tphadke"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="tphadke"/>
+    <property name="java.class.path" value="/Users/tphadke/project/entre/html5-webapp-jetty/target/test-classes:/Users/tphadke/project/entre/html5-webapp-jetty/target/classes:/Users/tphadke/.m2/repository/junit/junit/4.4/junit-4.4.jar:/Users/tphadke/.m2/repository/org/eclipse/jetty/jetty-server/8.0.0.M3/jetty-server-8.0.0.M3.jar:/Users/tphadke/.m2/repository/org/mortbay/jetty/servlet-api/3.0.20100224/servlet-api-3.0.20100224.jar:/Users/tphadke/.m2/repository/org/eclipse/jetty/jetty-continuation/8.0.0.M3/jetty-continuation-8.0.0.M3.jar:/Users/tphadke/.m2/repository/org/eclipse/jetty/jetty-http/8.0.0.M3/jetty-http-8.0.0.M3.jar:/Users/tphadke/.m2/repository/org/eclipse/jetty/jetty-io/8.0.0.M3/jetty-io-8.0.0.M3.jar:/Users/tphadke/.m2/repository/org/eclipse/jetty/jetty-util/8.0.0.M3/jetty-util-8.0.0.M3.jar:/Users/tphadke/.m2/repository/org/eclipse/jetty/jetty-websocket/8.0.0.M3/jetty-websocket-8.0.0.M3.jar:/Users/tphadke/.m2/repository/javax/faces/jsf-api/1.2/jsf-api-1.2.jar:/Users/tphadke/.m2/repository/javax/faces/jsf-impl/1.2/jsf-impl-1.2-NIGHTLY_20060227.jar:/Users/tphadke/.m2/repository/javax/javaee-web-api/6.0/javaee-web-api-6.0.jar:"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="/Users/tphadke/project/entre/html5-webapp-jetty/target/surefire/surefirebooter7114462565084214627.jar /Users/tphadke/project/entre/html5-webapp-jetty/target/surefire/surefire7653641382150644899tmp /Users/tphadke/project/entre/html5-webapp-jetty/target/surefire/surefire6399028073234071371tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_17"/>
+    <property name="java.ext.dirs" value="/Users/tphadke/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/jre/lib/JObjC.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_17.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="/Users/tphadke/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.001" classname="org.trivadis.websocket.AppTest" name="testApp"/>
+</testsuite>
